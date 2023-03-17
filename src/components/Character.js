@@ -5,6 +5,7 @@ const Character = ({character}) => {
             <strong>Gender:</strong> {character.gender} <br/>
             <strong>Species:</strong> {character.species} <br/>
             <strong>House:</strong> {character.house} <br/>
+            <img className="image" src={character.image} alt="image" />
             <br/>
         </li>
     )

@@ -3,7 +3,7 @@ import CharacterContainer from './containers/CharacterContainer';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <h1>Harry Potter Characters and Information</h1>
       <CharacterContainer/>
     </div>
